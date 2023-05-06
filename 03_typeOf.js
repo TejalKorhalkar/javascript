@@ -1,0 +1,18 @@
+var bankName;
+console.log("Name of the bank-->", bankName, "Type:", typeof bankName);
+bankName = "SBI Bank";
+console.log("Name of the bank-->", bankName, "Type:", typeof bankName);
+console.log("--------------------------------------------------");
+var marks = '90%';
+console.log("Marks obtained-->", marks, "Type:", typeof marks);
+console.log("--------------------------------------------------");
+var isWorking;
+console.log("Is working-->", isWorking, "Type:", typeof isWorking);
+isWorking = true;
+console.log("Is working-->", isWorking, "Type:", typeof isWorking);
+console.log("--------------------------------------------------");
+var totalCount = "Hundred and Seven";
+console.log("Total Count-->", totalCount, "Type:", typeof totalCount);
+totalCount=107;
+console.log("Total Count-->", totalCount, "Type:", typeof totalCount);
+console.log("==================================================");
