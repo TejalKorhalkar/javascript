@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>Exercise Time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+           <h1>HTML and JavaScript are crucial Technologies</h1>
+           <p>The web should not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>    
+    </main>
+    <script>
+        const mainHeading = document.querySelector("h1");
+        console.log(mainHeading.innerHTML);
+        const secondAdvantage = document.querySelectorAll('li');
+        console.log(secondAdvantage[1].innerHTML);
+        const advDiv= document.querySelector('#advantages');
+        console.log(advDiv.innerHTML);
+    </script>    
+</body>
+</html>
